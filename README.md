@@ -12,7 +12,7 @@ npm i -S start-write
 
 ## Usage
 
-Task is rely on `[{ path, data }]` input.
+Task is rely on `[{ path, data }]` input and provide the same.
 
 ```js
 // tasks/index.js
