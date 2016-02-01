@@ -2,7 +2,7 @@
 [![travis](http://img.shields.io/travis/start-runner/write.svg?style=flat-square)](https://travis-ci.org/start-runner/write)
 [![deps](https://img.shields.io/gemnasium/start-runner/write.svg?style=flat-square)](https://gemnasium.com/start-runner/write)
 
-Write task for [Start](https://github.com/start-runner/start). Rely on `[{ path, data }]` input.
+Write task for [Start](https://github.com/start-runner/start).
 
 ## Install
 
@@ -12,7 +12,7 @@ npm i -S start-write
 
 ## Usage
 
-## Usage
+Task is rely on `[{ path, data }]` input.
 
 ```js
 // tasks/index.js
@@ -24,7 +24,7 @@ import babel from 'start-babel';
 import write from 'start-write';
 
 export function build() {
-    return start(logger)(
+    return start(logger())(
         files('build/'),
         clean(),
         files('lib/**/*.js'),
