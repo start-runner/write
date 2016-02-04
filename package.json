@@ -1,6 +1,6 @@
 {
   "name": "start-write",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Write task for Start",
   "keywords": [ "start", "start-task" ],
   "homepage": "https://github.com/start-runner/write",
