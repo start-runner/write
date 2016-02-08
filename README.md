@@ -18,14 +18,14 @@ npm i -S start-write
 
 ```js
 import start from 'start';
-import logger from 'start-simple-logger';
+import reporter from 'start-pretty-reporter';
 import files from 'start-files';
 import clean from 'start-clean';
 import babel from 'start-babel';
 import write from 'start-write';
 
 export function build() {
-    return start(logger())(
+    return start(reporter())(
         files('build/'),
         clean(),
         files('lib/**/*.js'),
