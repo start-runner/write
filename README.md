@@ -39,7 +39,6 @@ Task is rely on `[{ path, data }]` input and provide the same, see [documentatio
 
 ## Arguments
 
-`write(dir, extname)`
+`write(dir)`
 
 * `dir` – output directory
-* `extname` – optional new extension for output files, for example `'.css'`
