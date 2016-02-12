@@ -39,6 +39,9 @@ Task is rely on `[{ path, data }]` input and provide the same, see [documentatio
 
 ## Arguments
 
-`write(dir)`
+`write(dir, sourcemapOptions)`
 
 * `dir` – output directory
+* `sourcemapOptions` – options using to generate Source Maps:
+  * `extname` – sourcemap file extension, `'.map'` by default
+  * `prefix` – prefix string which will be used to generate `sourceMappingURL` sourcemap comment, `''` by default
