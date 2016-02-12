@@ -29,7 +29,7 @@ export function build() {
         files('build/'),
         clean(),
         files('lib/**/*.js'),
-        babel(),
+        babel({ sourceMaps: true }),
         write('build/')
     );
 }
