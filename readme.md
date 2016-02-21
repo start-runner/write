@@ -36,7 +36,7 @@ export function build() {
 }
 ```
 
-This task relies on `[{ path, data }]` input and provides the same, see [documentation](https://github.com/start-runner/start#readme) for details.
+This task relies on `[{ path, data, map }]` input and provides the same, see [documentation](https://github.com/start-runner/start#readme) for details.
 
 ## Arguments
 
