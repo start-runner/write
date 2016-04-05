@@ -40,9 +40,10 @@ This task relies on `[{ path, data, map }]` input and provides the same, see [do
 
 ## Arguments
 
-`write(dir, sourcemapOptions)`
+`write(dir, encoding, sourcemapOptions)`
 
 * `dir` – output directory
+* `encoding` – `fs.writeFile` encoding option, `utf-8` by default
 * `sourcemapOptions` – options using to generate Source Maps:
   * `extname` – sourcemap file extension, `'.map'` by default
   * `prefix` – prefix string which will be used to generate `sourceMappingURL` sourcemap comment, `''` by default
