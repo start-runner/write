@@ -5,7 +5,6 @@
 [![windows build](https://img.shields.io/appveyor/ci/start-runner/write.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/write)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/write.svg?style=flat-square)](https://codecov.io/github/start-runner/write)
 [![deps](https://img.shields.io/gemnasium/start-runner/write.svg?style=flat-square)](https://gemnasium.com/start-runner/write)
-[![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-46bc99.svg?style=flat-square)](https://gitter.im/start-runner/start)
 
 Write task for [Start](https://github.com/start-runner/start).
 
