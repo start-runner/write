@@ -1,9 +1,9 @@
 # start-write
 
 [![npm](https://img.shields.io/npm/v/start-write.svg?style=flat-square)](https://www.npmjs.com/package/start-write)
-[![linux build](https://img.shields.io/travis/start-runner/write.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/write)
-[![windows build](https://img.shields.io/appveyor/ci/start-runner/write.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/write)
-[![coverage](https://img.shields.io/codecov/c/github/start-runner/write.svg?style=flat-square)](https://codecov.io/github/start-runner/write)
+[![linux build](https://img.shields.io/travis/start-runner/write/master.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/write)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/write/master.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/write)
+[![coverage](https://img.shields.io/codecov/c/github/start-runner/write/master.svg?style=flat-square)](https://codecov.io/github/start-runner/write)
 [![deps](https://img.shields.io/gemnasium/start-runner/write.svg?style=flat-square)](https://gemnasium.com/start-runner/write)
 
 Write task for [Start](https://github.com/start-runner/start).
