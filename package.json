@@ -9,7 +9,7 @@
   "files": [ "build/" ],
   "main": "build/index.js",
   "dependencies": {
-    "graceful-fs": "^4.1.5",
+    "graceful-fs": "^4.1.10",
     "mkdirp": "^0.5.1",
     "pify": "^2.3.0",
     "babel-runtime": "^6.11.6"
