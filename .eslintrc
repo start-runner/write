@@ -1,6 +1,11 @@
 {
   "extends": [
-    "rebem/configs/common",
-    "rebem/configs/babel"
-  ]
+    "tough/config/common",
+    "tough/config/node",
+    "tough/config/esnext"
+  ],
+  "rules": {
+    "no-magic-numbers": 0,
+    "promise/always-return": 0
+  }
 }
