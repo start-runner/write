@@ -10,8 +10,10 @@ Write task for [Start](https://github.com/start-runner/start).
 
 ## Install
 
-```
-npm i -S start-write
+```sh
+npm install --save-dev start-write
+# or
+yarn add --dev start-write
 ```
 
 ## Usage
@@ -24,15 +26,13 @@ import clean from 'start-clean';
 import babel from 'start-babel';
 import write from 'start-write';
 
-export function build() {
-    return start(reporter())(
-        files('build/'),
-        clean(),
-        files('lib/**/*.js'),
-        babel({ sourceMaps: true }),
-        write('build/')
-    );
-}
+export const build= () => start(reporter())(
+  files('build/'),
+  clean(),
+  files('lib/**/*.js'),
+  babel({ sourceMaps: true }),
+  write('build/')
+);
 ```
 
 This task relies on `[{ path, data, map }]` input and provides the same, see [documentation](https://github.com/start-runner/start#readme) for details.
