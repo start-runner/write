@@ -41,7 +41,7 @@ This task relies on `[{ path, data, map }]` input and provides the same, see [do
 
 `write(dir, encoding, sourcemapOptions)`
 
-* `dir` – output directory
+* `dir` – output directory, will be created automatically if it doesn't exists
 * `encoding` – `fs.writeFile` encoding option, `utf-8` by default
 * `sourcemapOptions` – options using to generate Source Maps:
   * `extname` – sourcemap file extension, `'.map'` by default
